@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width">
+        
+        <title>Tabula Rasa</title>
+        
+        <link rel="stylesheet" type="text/css" href="../css/style.css" />
+        
+        <script src="../js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+        <script>
+            $(function() {
+                $(window).resize(function() {
+                    if ($(this).width() < 768) {
+                        document.getElementById('tr-cover').className= 'top-panel';
+                        document.getElementById('tr-content').className ='main-panel-below';
+                    } else {
+                        document.getElementById('tr-cover').className= 'sidebar';
+                        document.getElementById('tr-content').className ='main-panel';
+                    }
+                });
+                $(window).resize();
+            });
+        </script>
+    </head>
+    
+    <body>
+        <div id="tr-cover" class="sidebar">
+            <div class="logo"></div>
+        </div>
+        
+        <div id="tr-content" class="main-panel">
+            <div class="header">
+                <ul class="nav-links">
+                    <li><a href="../index.html">About</a></li>
+                    <li><a href="submissions.html">Submissions</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            
+            <!-- Begin MailChimp Signup Form -->
+            <link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+            <div id="mc_embed_signup">
+            <form action="http://rasatabularasa.us5.list-manage.com/subscribe/post?u=c437d4d853e508ccf4e63eeca&amp;id=50d336433a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            	<label for="mce-EMAIL">Subscribe to our mailing list</label>
+            	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+            	<div class="clear">
+            	    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+            	</div>
+            </form>
+            </div>
+            <!--End mc_embed_signup-->
+            
+        </div>
+    </body>
+</html>

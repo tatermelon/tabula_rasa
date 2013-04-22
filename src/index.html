@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width">
+        
+        <title>Tabula Rasa</title>
+        
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        
+        <script src="js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+        <script>
+            $(function() {
+                $(window).resize(function() {
+                    if ($(this).width() < 768) {
+                        document.getElementById('tr-cover').className= 'top-panel';
+                        document.getElementById('tr-content').className ='main-panel-below';
+                    } else {
+                        document.getElementById('tr-cover').className= 'sidebar';
+                        document.getElementById('tr-content').className ='main-panel';
+                    }
+                });
+                $(window).resize();
+            });
+        </script>
+    </head>
+    
+    <body>
+        <div id="tr-cover" class="sidebar">
+            <div class="logo"></div>
+        </div>
+        
+        <div id="tr-content" class="main-panel">
+            <div class="header">
+                <ul class="nav-links">
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="info/submissions.html">Submissions</a></li>
+                    <li><a href="info/contact.html">Contact</a></li>
+                </ul>
+            </div>
+            
+            <h3>What is Tabula Rasa?</h3>
+            
+            <p>Tabula Rasa is a video magazine based in San Francisco that puts art into the hands of the viewer. Each issue features multi-screen videos that can be watched by linking phones, tablets, or any portable video device. Tabula Rasa seeks to promote avant-garde video and film by artists both national and international, as well as create a new venue for experiencing multi-channel video work. </p>
+            
+        </div>
+    </body>
+</html>
