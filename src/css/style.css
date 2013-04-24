@@ -1,23 +1,42 @@
-@font-face {
-    font-family: OldBlock;
-    src: url('fonts/OBGB.ttf' format('truetype'));
-    
-}
 
 body {
+  /*  border: 0.5em solid #a5ddc2; */
+    /* background: white url('../img/background/squairy_light.png') repeat; */
     background-color: white;
-    color: #4F606C;
-    font-family: OldBlock, Helvetica, sans-serif;
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
     margin: 0;
-}
-
-h1, h2, h3, h4, h5 {
-    color: #647B8A;
 }
 
 a {
     text-decoration: none;
     color: #a5ddc2;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    font-weight: bold;
+    color: #333;
+    text-transform:uppercase;
+    padding-left: 1em;
+    background: transparent url('../img/background/squairy_light.png');
+}    
+
+section {
+    padding: 1em 0em;
+}
+
+section p {
+    padding: 0.5em 0em;
+}
+
+.tara-title {
+    font-style:italic;
+    font-weight: 600;
+    font-size: 1.7em;
 }
 
 .sidebar {
@@ -27,39 +46,15 @@ a {
     position: fixed;
     background: url('../img/illustration_new.jpg') no-repeat center;
     background-size: cover;
-    text-align: center;
-}
-
-/* For small screen sizes */
-.top-panel {
-    width: 100%;
-    height: 100%;
-    padding-top: 1px;
-    background: url('../img/illustration_new.jpg') no-repeat center;
-    background-size: cover;
-    text-align: center;
 }
 
 .main-panel {
     width: 46%;
     float: right;
     padding: 2% 7%;
-    font-weight: 100;
-    font-size: 1.1em;
+    font-weight: 400;
+    font-size: 0.8em;
     line-height: 1.5em;
-    text-align: center;
-}
-
-.main-panel-below {
-    padding: 2% 7%;
-    font-weight: 100;
-    font-size: 1.1em;
-    line-height: 1.5em;
-    text-align: center;
-}
-
-.header {
-    padding: 0 0 2em;
 }
 
 .logo {
@@ -96,5 +91,28 @@ a {
 
 #mc_embed_signup {
     background: #a5ddc2;
-    font: 14px Helvetica,Arial,sans-serif; 
+    font: 14px; 
 }
+
+
+/* ------------------------ For screen sizes < 768 ------------------------ */
+.top-panel {
+    width: 100%;
+    height: 100%;
+    padding-top: 1px;
+    background: url('../img/illustration_new.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.main-panel-below {
+    padding: 2% 7%;
+    letter-spacing: 0.07em;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.main-panel-below section {    
+    padding: 0.7em 0em;
+}
+
+/* ------------------------------------------------------------------------ */
