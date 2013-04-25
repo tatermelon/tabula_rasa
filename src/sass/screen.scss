@@ -1,0 +1,127 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "compass/css3";
+
+$green: #26B163;
+
+body {
+/*    border: 0.5em solid #a5ddc2; */
+    /* background: white url('../img/background/squairy_light.png') repeat; */
+    background-color: white;
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: $green;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    font-weight: bold;
+    color: #333;
+    text-transform:uppercase;
+    padding-left: 1em;
+    background: transparent url('../img/background/squairy_light.png');
+}    
+
+section {
+    padding: 1em 0em;
+}
+
+section p {
+    padding: 0.5em 0em;
+}
+
+.tara-title {
+    font-style:italic;
+    font-weight: 600;
+    font-size: 1.7em;
+}
+
+.sidebar {
+    width: 40%;
+    height: 100%;
+    padding-top: 1px;
+    position: fixed;
+    background: url('../img/grass_illustration.jpg') no-repeat center;
+    @include background-size(cover);
+}
+
+.main-panel {
+    width: 46%;
+    float: right;
+    padding: 2% 7%;
+    font-weight: 400;
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+
+.logo {
+    margin-top: 22px;
+    color: #647B8A;
+    font-size: 1.5em;
+    font-weight: bold;
+    width: 100%;
+    height: 50%;
+    background: url('../img/tabularasa_logo.png') no-repeat top;
+    background-size: 85%;
+}
+
+.nav-links {
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    font-size: 14px;
+}
+
+.nav-links > li {
+    display: inline;
+    margin-left: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+.main-content {
+    padding: 1% 3%;
+    font-weight: 100;
+}
+
+#mc_embed_signup {
+    background: #a5ddc2;
+    font: 14px; 
+}
+
+
+/* ------------------------ For screen sizes < 768 ------------------------ */
+.top-panel {
+    width: 100%;
+    height: 100%;
+    padding-top: 1px;
+    background: url('../img/illustration_new.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.main-panel-below {
+    padding: 2% 7%;
+    letter-spacing: 0.07em;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.main-panel-below section {    
+    padding: 0.7em 0em;
+}
+
+/* ------------------------------------------------------------------------ */
