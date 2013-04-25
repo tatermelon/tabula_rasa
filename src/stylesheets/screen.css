@@ -55,7 +55,7 @@ section p {
   height: 100%;
   padding-top: 1px;
   position: fixed;
-  background: url("../img/grass_illustration.jpg") no-repeat center;
+  background: #21122e url("../img/grass_illustration.jpg") no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

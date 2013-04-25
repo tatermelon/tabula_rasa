@@ -52,7 +52,7 @@ section p {
     height: 100%;
     padding-top: 1px;
     position: fixed;
-    background: url('../img/grass_illustration.jpg') no-repeat center;
+    background: #21122E url('../img/grass_illustration.jpg') no-repeat center;
     @include background-size(cover);
 }
 
