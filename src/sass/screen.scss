@@ -6,6 +6,7 @@
 @import "compass/css3";
 
 $green: #26B163;
+$softgreen: #a5ddc2;
 
 body {
 /*    border: 0.5em solid #a5ddc2; */
@@ -98,7 +99,7 @@ section p {
 }
 
 #mc_embed_signup form {
-    background: transparent url('../img/background/squairy_light.png');
+    background: $softgreen;
     color: #424242;
 }
 
