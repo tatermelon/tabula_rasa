@@ -12,7 +12,12 @@ $dullgreen: #9ECCB4;
 $salmon: #EDA19E;
 $darksalmon: #D06C6A;
 
+html {
+    width: 100%;
+}
+
 body {
+    width: 100%;
     background-color: white;
     color: black;
     font-family: Helvetica, Arial, sans-serif;

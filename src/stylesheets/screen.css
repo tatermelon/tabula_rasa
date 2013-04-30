@@ -3,25 +3,31 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* line 15, ../sass/screen.scss */
+html {
+  width: 100%;
+}
+
+/* line 19, ../sass/screen.scss */
 body {
+  width: 100%;
   background-color: white;
   color: black;
   font-family: Helvetica, Arial, sans-serif;
   margin: 0;
 }
 
-/* line 22, ../sass/screen.scss */
+/* line 27, ../sass/screen.scss */
 a {
   text-decoration: none;
   color: #5ea27d;
 }
 
-/* line 27, ../sass/screen.scss */
+/* line 32, ../sass/screen.scss */
 a:hover {
   text-decoration: underline;
 }
 
-/* line 31, ../sass/screen.scss */
+/* line 36, ../sass/screen.scss */
 header {
   font-weight: bold;
   color: #333;
@@ -30,17 +36,17 @@ header {
   background: transparent url("../img/background/squairy_light.png");
 }
 
-/* line 39, ../sass/screen.scss */
+/* line 44, ../sass/screen.scss */
 section {
   padding: 1em 10%;
 }
 
-/* line 43, ../sass/screen.scss */
+/* line 48, ../sass/screen.scss */
 section p {
   padding: 0.5em 0em;
 }
 
-/* line 47, ../sass/screen.scss */
+/* line 52, ../sass/screen.scss */
 section:hover header {
   background: url("../img/background/squairy_light.png");
   color: #FFF;
@@ -52,14 +58,14 @@ section:hover header {
   line-height: 0;
 }
 
-/* line 58, ../sass/screen.scss */
+/* line 63, ../sass/screen.scss */
 .tara-title {
   font-style: italic;
   font-weight: 600;
   font-size: 1.7em;
 }
 
-/* line 64, ../sass/screen.scss */
+/* line 69, ../sass/screen.scss */
 .sidebar {
   width: 40%;
   height: 100%;
@@ -73,7 +79,7 @@ section:hover header {
   background-size: cover;
 }
 
-/* line 74, ../sass/screen.scss */
+/* line 79, ../sass/screen.scss */
 .main-panel {
   width: 60%;
   padding: 2% 0;
@@ -83,7 +89,7 @@ section:hover header {
   line-height: 1.5em;
 }
 
-/* line 83, ../sass/screen.scss */
+/* line 88, ../sass/screen.scss */
 .logo {
   margin-top: 22px;
   color: #647B8A;
@@ -95,7 +101,7 @@ section:hover header {
   background-size: 85%;
 }
 
-/* line 94, ../sass/screen.scss */
+/* line 99, ../sass/screen.scss */
 .nav-links {
   text-align: center;
   margin: auto;
@@ -103,31 +109,31 @@ section:hover header {
   font-size: 14px;
 }
 
-/* line 101, ../sass/screen.scss */
+/* line 106, ../sass/screen.scss */
 .nav-links > li {
   display: inline;
   margin-left: 10px;
 }
 
-/* line 106, ../sass/screen.scss */
+/* line 111, ../sass/screen.scss */
 .clear {
   clear: both;
 }
 
-/* line 110, ../sass/screen.scss */
+/* line 115, ../sass/screen.scss */
 .main-content {
   padding: 1% 3%;
   font-weight: 100;
 }
 
-/* line 115, ../sass/screen.scss */
+/* line 120, ../sass/screen.scss */
 #mc_embed_signup {
   background: url("../img/background/squairy_light.png");
   padding: 5px;
   font: 14px Helvetica,Arial,sans-serif;
 }
 
-/* line 121, ../sass/screen.scss */
+/* line 126, ../sass/screen.scss */
 #mc_embed_signup form {
   background: #a5ddc2;
   color: white;
@@ -135,29 +141,29 @@ section:hover header {
   border: 5px solid transparent;
 }
 
-/* line 128, ../sass/screen.scss */
+/* line 133, ../sass/screen.scss */
 #mc_embed_signup .mc-field-group {
   padding-bottom: 1% !important;
 }
 
-/* line 132, ../sass/screen.scss */
+/* line 137, ../sass/screen.scss */
 #mc_embed_signup h2 {
   margin: 0px !important;
 }
 
-/* line 136, ../sass/screen.scss */
+/* line 141, ../sass/screen.scss */
 #mc_embed_signup p {
   margin: 0 0 5px;
   font-style: italic;
 }
 
-/* line 141, ../sass/screen.scss */
+/* line 146, ../sass/screen.scss */
 #mc_embed_signup .button {
   margin-bottom: 0 !important;
 }
 
 /* ------------------------ For screen sizes < 768 ------------------------ */
-/* line 146, ../sass/screen.scss */
+/* line 151, ../sass/screen.scss */
 .top-panel {
   width: 100%;
   height: 100%;
@@ -167,7 +173,7 @@ section:hover header {
   background-size: cover;
 }
 
-/* line 155, ../sass/screen.scss */
+/* line 160, ../sass/screen.scss */
 .main-panel-below {
   padding: 2% 0 0;
   letter-spacing: 0.07em;
@@ -175,23 +181,23 @@ section:hover header {
   line-height: 1.5em;
   padding: 2% 0 0;
 }
-/* line 162, ../sass/screen.scss */
+/* line 167, ../sass/screen.scss */
 .main-panel-below section {
   padding: 1em 10% 0;
 }
-/* line 166, ../sass/screen.scss */
+/* line 171, ../sass/screen.scss */
 .main-panel-below section:hover header {
   font-size: 1.1em;
 }
-/* line 170, ../sass/screen.scss */
+/* line 175, ../sass/screen.scss */
 .main-panel-below #mc_embed_signup {
   padding: 10px 0 10px;
 }
-/* line 174, ../sass/screen.scss */
+/* line 179, ../sass/screen.scss */
 .main-panel-below #mc_embed_signup form {
   margin: 0;
 }
-/* line 178, ../sass/screen.scss */
+/* line 183, ../sass/screen.scss */
 .main-panel-below .form-panel {
   padding: 0;
 }
