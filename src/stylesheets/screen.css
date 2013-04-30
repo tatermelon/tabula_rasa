@@ -44,10 +44,10 @@ section p {
 section:hover header {
   background: url("../img/background/squairy_light.png");
   color: #FFF;
-  border-bottom: 14px solid #ace7cd;
+  border-bottom: 14px solid #a5ddc2;
   border-right: 10px solid white;
   border-left: 20px solid transparent;
-  border-top: 14px solid #ace7cd;
+  border-top: 14px solid #a5ddc2;
   font-size: 1.3em;
   line-height: 0;
 }
@@ -128,7 +128,7 @@ section:hover header {
 
 /* line 120, ../sass/screen.scss */
 #mc_embed_signup form {
-  background: #ace7cd;
+  background: #a5ddc2;
   color: white;
   margin: 5px;
   border: 5px solid transparent;
